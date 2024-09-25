@@ -1,0 +1,1 @@
+(google text to speach)gtts bibliotheque python de google pour transformer du text en audio
