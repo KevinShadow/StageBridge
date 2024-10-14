@@ -35,7 +35,7 @@ class ReturnPage extends Controller
         $postulations = Postuler::where('id_etudiant', $etudiantId)->with('stage')->get();
 
         // Retourner la vue avec les données des candidatures
-        return view('etudiant.mes_offres_postuler', compact('postulations'));
+        return view('Etudiant.mes_offres_postuler', compact('postulations'));
     }
 
     public function return_modifiermonoffrespublier_page($id){
@@ -46,7 +46,7 @@ class ReturnPage extends Controller
             return redirect()->route('mesoffrespublier')->with('error', 'Vous n\'êtes pas autorisé à modifier cette offre.');
         }
 
-        return view('entreprise.modifier_stage', compact('offre'));
+        return view('Entreprise.modifier_stage', compact('offre'));
 
     }
 

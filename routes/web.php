@@ -7,9 +7,9 @@ use App\Http\Controllers\EtablissementController;
 use App\Http\Controllers\EtudiantController;
 use App\Http\Controllers\EntrepriseController;
 use App\Http\Controllers\EmploiController;
-use App\Http\controllers\StageController;
-use App\Http\controllers\PostulerController;
-use App\Http\controllers\ProfilEtudiantController;
+use App\Http\Controllers\StageController;
+use App\Http\Controllers\PostulerController;
+use App\Http\Controllers\ProfilEtudiantController;
 
 
 

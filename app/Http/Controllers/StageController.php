@@ -22,7 +22,7 @@ class StageController extends Controller
 {
     //
     public function create_stage(){
-        return view("offres.creation.stage.create_stage");
+        return view("offres.creation.stage.create_Stage");
     }
     public function search_stage(){
         return view("offres.recherche.stage.chearch_Stage");
@@ -50,7 +50,7 @@ class StageController extends Controller
             ->get();
 
         // Retourner la vue avec les résultats de recherche et les suggestions
-        return view('offres.recherche.stage.chearch_stage', [
+        return view('offres.recherche.stage.chearch_Stage', [
             'stages' => $stages,
             'suggestions' => $suggestions,
         ]);
