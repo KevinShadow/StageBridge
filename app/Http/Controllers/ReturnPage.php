@@ -61,7 +61,7 @@ class ReturnPage extends Controller
         $offres = Stage::where('id_entreprise', $entrepriseId)->get();
 
         // Retourner la vue avec les données des offres
-        return view('entreprise.liste_offres', compact('offres'));
+        return view('Entreprise.liste_offres', compact('offres'));
     }
 
     public function nePlusPostuler($id_stage)

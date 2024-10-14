@@ -18,9 +18,6 @@ use App\Models\Avis;
 
 
 
-
-
-
 class StageController extends Controller
 {
     //
